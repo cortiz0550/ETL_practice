@@ -6,7 +6,7 @@ from pandas import json_normalize
 import time 
 from datetime import datetime, timedelta
 
-API_KEY = 'qQRDZGpQyx6HDAWdFOwWDsXxyy0darUq'
+API_KEY = 'Enter here'
 
 def get_URI(query:str, page_num:str, date:str, API_KEY:str) -> str:
 	"""# obtain the URI for access to articles for a given query, page number, and date"""
